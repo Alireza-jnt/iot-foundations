@@ -1,2 +1,20 @@
-# iot-foundations
-# IoT Foundations  **Phase 0** of a practical IoT Backend / Platform engineering path.  This repository focuses on building solid professional habits and a clean, reproducible development foundation before adding MQTT, InfluxDB, or device pipelines.  ### What’s included - Clean Python project structure - Virtual environment + dependency management - Type hints, structured logging, and environment variables - Simple FastAPI application - Dockerfile + Docker Compose for reproducible runs - Proper Git history and documentation practices  ### Goal of this phase Create a minimal but professional starting point that can later grow into a full IoT telemetry platform (device simulation → MQTT → Telegraf → InfluxDB → Grafana → FastAPI backend).  ### How to run ```bash docker compose up --build
+# IoT Foundations
+
+**Phase 0** of a practical IoT Backend / Platform engineering path.
+
+This repository focuses on building solid professional habits and a clean, reproducible development foundation before adding MQTT, InfluxDB, or device pipelines.
+
+### What’s included
+- Clean Python project structure
+- Virtual environment + dependency management
+- Type hints, structured logging, and environment variables
+- Simple FastAPI application
+- Dockerfile + Docker Compose for reproducible runs
+- Proper Git history and documentation practices
+
+### Goal of this phase
+Create a minimal but professional starting point that can later grow into a full IoT telemetry platform (device simulation → MQTT → Telegraf → InfluxDB → Grafana → FastAPI backend).
+
+### How to run
+```bash
+docker compose up --build
